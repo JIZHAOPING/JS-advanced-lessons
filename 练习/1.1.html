@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    var a={name:"Mike",age:"20"};
+    console.log(a instanceof Array);
+    console.log(a instanceof Object);
+
+    var obj1={"key":2};
+    var obj2=obj1;
+    obj2.key=3;
+    console.log(obj1.key);
+    obj2={"key":4};//新开辟一块内存
+    console.log(obj1.key);
+
+    var a=[1,2];
+    var b=[1,2];
+    console.log(a==b);
+    console.log(c=b);
+    console.log(b===c);
+
+</script>
+</html>
